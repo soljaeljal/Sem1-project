@@ -1,0 +1,142 @@
+/*NAVIGATION*/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 12vh;
+  background-color: #fff;
+  color: rgb(104, 104, 104);
+  box-shadow: 0px 1px 10px 0px rgb(228, 228, 228);
+
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+nav img {
+  grid-column: 1/2;
+  width: 20vw;
+  height: auto;
+}
+
+header nav ul {
+  list-style-type: none;
+  grid-column: 2/3;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 2vw;
+}
+
+/*
+nav li a:hover {
+  color:;
+}
+
+nav li a:active {
+  color:;
+}
+*/
+
+nav a {
+  text-decoration: none;
+  color:#96192b;
+}
+
+.dropdown { 
+  position: relative;
+  display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px 0px rgb(228, 228, 228);
+  min-width: 100px;
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+  
+.dropdown-content a:hover {
+  background-color: #666666;
+}
+  
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+/*NAVIGATION*/
+
+/*FORM*/
+form {
+  width: 40%;
+  padding: 2em;
+}
+
+form h2, p {
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+label, input {
+  display: block;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.3em;
+  display: inline-block;
+  outline: none;
+  overflow: auto;
+}
+
+.fName {
+  float: left;
+  width: 45%;
+}
+
+.lName {
+  float: right;
+  width: 45%;
+}
+
+.emailA {
+  clear: both;
+}
+
+input[type=submit] {
+  width: 10%;
+  height:;
+  padding:;
+  background-color:;
+  color:;
+  border:;
+  border-radius:;
+  box-shadow:;
+  cursor: pointer;
+  float: right;
+}
+
+/*FORM*/
+
+
+/*FOOTER*/
+footer {
+
+}
+/*FOOTER*/

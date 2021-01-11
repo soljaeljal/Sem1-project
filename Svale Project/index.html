@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Svalegaarden Mest</title>
+</head>
+<body>
+    <header>
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="/"><img src="assets/images/logo2.png"></a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#">Menu</a> <i class="fa fa-angle-down"></i>
+                        <div class="dropdown-content">
+                            <a href="#">Spring</a>
+                            <a href="#">Summer</a>
+                            <a href="#">Autumn</a>
+                            <a href="#">Winter</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <a href="#">Selskaber</a> <i class="fa fa-angle-down"></i>
+                        <div class="dropdown-content">
+                            <a href="#">Wedding</a>
+                            <a href="#">Confirmation</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>   
+    <!-- NAVIGATION -->
+
+    <!-- FORM -->
+    <form>
+        <fieldset>
+            <h2>Contact us</h2>
+            <p>Fill out the form and we will give you a call as soon as possible</p>
+            <div class="fName">
+                <label for="name">First name:</label>
+                <input type="text" name="name" placeholder="Your first name" required>
+            </div>
+            <div class="lName">
+                <label for="name">Last name:</label>
+                <input type="text" name="name" placeholder="Your last name" required>
+            </div>
+            <br>
+            <div class="emailA">
+                <label for="emailAddress">E-mail address:</label>
+                <input type="email" name="emailAddress" placeholder="Your email address" required>
+            </div>
+                <br>
+                <div>
+                <label for="telephone">Phone number:</label>
+                <input type="tel" name="telephone" placeholder="Your phone number" required>
+            </div>
+            <br>
+            <div class="date">
+                <label for="date">Date of arrangement:</label>
+                <input type="date" name="date" required>
+            </div>
+            <br>
+            <div class="arrangement">
+                <label for="arrangeSelect">What interested in?</label>
+                <select name="arrangeSelect" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="1">Wedding</option>
+                    <option value="2">Confirmation</option>
+                    <option value="3">Menu</option>
+                    <option value="4">Other</option>
+                </select>
+            </div>
+            <br>
+            <div class="comment">
+                <label for="comment">Comment:
+                <textarea placeholder="How can we help?"></textarea> 
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="submit">
+            </div>
+        </fieldset>
+    </form>
+    <!-- FORM -->
+    <footer>
+
+    </footer> 
+</body>
+</html>

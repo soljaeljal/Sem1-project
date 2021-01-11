@@ -1,0 +1,9 @@
+Dropdown nav https://www.w3schools.com/howto/howto_css_dropdown.asp
+Call to action form https://www.w3schools.com/tags/tag_form.asp
+
+HEX: #191c27
+RGB: R: 25 G: 28 B: 39
+HEX: #96192b
+RGB: R: 150 G: 25 B: 43
+HEX: #666666
+RGB: R: 102 G: 102 B: 102
